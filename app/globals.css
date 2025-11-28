@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+  --accent: #ccff00;
+  /* Neon Green */
+  --accent-secondary: #ff00ff;
+  /* Hot Pink */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-accent-secondary: var(--accent-secondary);
+  --font-mono: 'Courier New', Courier, monospace;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-mono);
+  overflow-x: hidden;
+}
+
+/* Brutalist Utilities */
+.brutal-border {
+  border: 4px solid #000;
+}
+
+.brutal-shadow {
+  box-shadow: 6px 6px 0px 0px #000;
+}
+
+.brutal-shadow-sm {
+  box-shadow: 3px 3px 0px 0px #000;
+}
+
+.brutal-shadow-hover:hover {
+  box-shadow: 2px 2px 0px 0px #000;
+  transform: translate(4px, 4px);
+}
+
+.brutal-btn {
+  @apply bg-accent text-black font-bold py-3 px-6 text-xl uppercase tracking-wider transition-all duration-200 cursor-pointer;
+  border: 4px solid #000;
+  box-shadow: 6px 6px 0px 0px #000;
+}
+
+.brutal-btn:hover {
+  @apply bg-accent-secondary text-white;
+  box-shadow: 2px 2px 0px 0px #000;
+  transform: translate(4px, 4px);
+}
+
+.brutal-input {
+  @apply w-full bg-white text-black font-mono text-lg p-4 focus:outline-none focus:ring-0;
+  border: 4px solid #000;
+}
+
+/* Marquee Animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
