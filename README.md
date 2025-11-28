@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✂️ TinyURL - Neo-Brutalist Edition
 
-## Getting Started
+<img width="1920" height="1080" alt="Screenshot 2025-11-28 085616" src="https://github.com/user-attachments/assets/cccbe39a-6cbb-43d1-980e-870e40db2fd0" />
 
-First, run the development server:
+> **SINGKAT. CEPAT. BERANI.**
 
+Project ini adalah aplikasi pemendek URL (URL Shortener) modern yang dibangun dengan **Next.js 16** (App Router). Mengusung gaya desain **Neo-Brutalist** yang unik, aplikasi ini tidak hanya fungsional tetapi juga memberikan pengalaman visual yang berani dengan animasi yang halus.
+
+## ✨ Fitur Utama
+
+* **⚡ Super Cepat**: Dibangun di atas Next.js 16 untuk performa maksimal.
+* **🎨 Desain Neo-Brutalist**: Tampilan estetika kasar dengan border tebal, hard shadows, dan warna kontras tinggi (Tailwind CSS v4).
+* **mj Animations**: Interaksi antarmuka yang hidup menggunakan **Framer Motion**.
+* **🔗 Pemendekan Instan**: Menggunakan API Route Handlers untuk memproses URL secara real-time.
+* **📋 Salin Cepat**: Fitur satu klik untuk menyalin URL pendek ke clipboard.
+* **📱 Responsif**: Tampilan tetap keren di desktop maupun mobile.
+
+## 🛠️ Teknologi yang Digunakan
+
+Project ini dibangun menggunakan tumpukan teknologi modern:
+
+| Teknologi | Deskripsi |
+| :--- | :--- |
+| **Next.js 16** | Framework React utama (App Router). |
+| **React 19** | Library UI frontend. |
+| **TypeScript** | Supaya kode lebih aman dan terstruktur. |
+| **Tailwind CSS v4** | Styling utility-first untuk desain brutalist. |
+| **Framer Motion** | Library animasi untuk React. |
+| **Lucide React** | Ikon yang ringan dan bersih. |
+| **Nanoid** | Generator ID string unik untuk kode URL. |
+
+## 🚀 Cara Memulai (Getting Started)
+
+Ikuti langkah-langkah ini untuk menjalankan project di lokal komputer kamu:
+
+### 1. Clone Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone [https://github.com/username-anda/soluniverse.git](https://github.com/username-anda/soluniverse.git)
+cd soluniverse
